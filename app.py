@@ -26,6 +26,7 @@ st.title("🌟 Team Outing Vibe Wall 🌟")
 st.subheader("My Experience")
 st.markdown("""
 **Day 1: Journey with Excitement 🚀
+            
 -Fun bus ride filled with laughter, dance, and a bit of sleep
             
 -Cool Coorg welcoming us 🌍
