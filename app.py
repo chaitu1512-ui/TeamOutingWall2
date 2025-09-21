@@ -25,15 +25,15 @@ st.title("🌟 Team Outing Vibe Wall 🌟")
 # Show your experience first
 st.subheader("My Experience")
 st.markdown("""
-**Day 1: Journey with all exxcitement 🚀**  
+**Day 1: Journey with all excitement 🚀**  
 - Fun bus ride, Laugh, Dance, a bit of Sleep  
 - Cool Coorg welcoming us 🌍  
-- Swimming pool and fun chats with friends fueled by high spirit 📊  
+- Swimming pool and fun chats with friends fueled by high spirit
 
 **Day 2: Team Bonding 🤝**  
-- Laughs. Strategies,lot to lookforward for next year 😂  
+- Laughs. Strategies,lot to lookforward for next year  
 - Fun Games, Bonding getting stronger, Story telling / Telling stories :) 🎲  
-- Unforgettable Memories, Cocktain party, After party, Late night / Early morning walks 📸  
+- Unforgettable Memories, Cocktail party, After party, Late night / Early morning walks 📸  
 
 **Day 3: Wrap-up & Good Vibes 🌟**  
 - Energy 🔥  
