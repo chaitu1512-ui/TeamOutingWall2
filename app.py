@@ -12,7 +12,7 @@ CREDS_FILE = r"C:\Users\admin\Desktop\TeamOutingWall\service_account.json"
   # Your downloaded JSON
 SHEET_NAME = "TeamOutingWall"
 
-service_account_info = json.loads(os.environ['SERVICE_ACCOUNT_JSON'])
+service_account_info = st.secrets["SERVICE_ACCOUNT_JSON"]
 creds = ServiceAccountCredentials.from_json_keyfile_dict(service_account_info, SCOPE)
 client = gspread.authorize(creds)
 sheet = client.open(SHEET_NAME).sheet1
