@@ -46,7 +46,7 @@ We connected, collaborated, and celebrated 🎉
 Memories created, bonds strengthened 🤝  
 Great teams build greater futures 🌈  
 """)
-""")
+
 
 # Input box for new experiences
 st.subheader("💬 Share Your Experience")
