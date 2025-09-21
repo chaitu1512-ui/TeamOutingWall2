@@ -20,20 +20,20 @@ sheet = client.open(SHEET_NAME).sheet1
 # ------------------ Streamlit App ------------------
 st.set_page_config(page_title="Team Outing Vibe Wall", page_icon="🌟", layout="centered")
 
-st.title("🌟 Team Outing Experience Wall 🌟")
+st.title("🌟 Team Outing Vibe Wall 🌟")
 
 # Show your experience first
 st.subheader("My Experience")
 st.markdown("""
-**Day 1: Kick-off 🚀**  
-- Brainstorming 💡  
-- Vision Sharing 🌍  
-- Future Roadmaps 📊  
+**Day 1: Journey with all exxcitement 🚀**  
+- Fun bus ride, Laugh, Dance, a bit of Sleep  
+- Cool Coorg welcoming us 🌍  
+- Swimming pool and fun chats with friends fueled by high spirit 📊  
 
 **Day 2: Team Bonding 🤝**  
-- Laughs 😂  
-- Fun Games 🎲  
-- Unforgettable Memories 📸  
+- Laughs. Strategies,lot to lookforward for next year 😂  
+- Fun Games, Bonding getting stronger, Story telling / Telling stories :) 🎲  
+- Unforgettable Memories, Cocktain party, After party, Late night / Early morning walks 📸  
 
 **Day 3: Wrap-up & Good Vibes 🌟**  
 - Energy 🔥  
