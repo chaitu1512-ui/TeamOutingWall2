@@ -27,7 +27,9 @@ st.subheader("My Experience")
 st.markdown("""
 **Day 1: Journey with Excitement 🚀
 -Fun bus ride filled with laughter, dance, and a bit of sleep
+            
 -Cool Coorg welcoming us 🌍
+            
 -Swimming pool time and fun chats with friends, fueled by high spirits
 
 Day 2: Team Bonding 🤝
