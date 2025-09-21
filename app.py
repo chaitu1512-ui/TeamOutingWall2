@@ -1,15 +1,19 @@
 import streamlit as st
 import gspread
+import os
+import json
 from oauth2client.service_account import ServiceAccountCredentials
 
 # ------------------ Google Sheets Setup ------------------
 SCOPE = ["https://spreadsheets.google.com/feeds",
-         "https://www.googleapis.com/auth/drive"]
+         "https://www.googleapis.com/auth/drive",
+         "https://www.googleapis.com/auth/spreadsheets"]
 CREDS_FILE = r"C:\Users\admin\Desktop\TeamOutingWall\service_account.json"
   # Your downloaded JSON
 SHEET_NAME = "TeamOutingWall"
 
-creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_FILE, SCOPE)
+service_account_info = json.loads(os.environ['SERVICE_ACCOUNT_JSON'])
+creds = ServiceAccountCredentials.from_json_keyfile_dict(service_account_info, SCOPE)
 client = gspread.authorize(creds)
 sheet = client.open(SHEET_NAME).sheet1
 
